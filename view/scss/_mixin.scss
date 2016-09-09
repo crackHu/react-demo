@@ -1,0 +1,31 @@
+@mixin v-layout($value) {
+    -webkit-box-align: $value;
+    -ms-flex-align: $value;
+    -webkit-align-items: $value;
+    -moz-align-items: $value;
+    align-items: $value;
+}
+
+@mixin flex-layout($v) {
+    -webkit-box-flex: $v;
+    -webkit-flex: $v;
+    -moz-box-flex: $v;
+    -moz-flex: $v;
+    -ms-flex: $v;
+    flex: $v;
+}
+
+//row | row-reverse | column | column-reverse;   flex 布局方向
+@mixin direction-layout($v){
+    -webkit-flex-direction: $v;
+    -moz-flex-direction: $v;
+    -ms-flex-direction: $v;
+    flex-direction: $v;
+}
+
+@mixin wrap-layout($v){
+  -webkit-flex-wrap: $v;
+  -moz-flex-wrap: $v;
+  -ms-flex-wrap: $v;
+  flex-wrap: $v;
+}

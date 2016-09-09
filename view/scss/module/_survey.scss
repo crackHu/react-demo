@@ -1,0 +1,9 @@
+.survey{
+    @extend .flex;
+    @include wrap-layout(wrap);
+}
+
+.survey .ant-card{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,55 @@
+.ant-menu.ant-menu-blue-dark,
+.ant-menu.ant-menu-blue-dark .ant-menu-sub {
+    color: #999;
+    background: $color-base;
+}
+.ant-menu.ant-menu-blue-dark .ant-menu-inline.ant-menu-sub {
+    background: #2a3344;
+}
+.ant-menu.ant-menu-blue-dark.ant-menu-horizontal {
+    border-bottom-color: #404040;
+}
+.ant-menu.ant-menu-blue-dark.ant-menu-horizontal > .ant-menu-item,
+.ant-menu.ant-menu-blue-dark.ant-menu-horizontal > .ant-menu-submenu {
+    border-color: #404040;
+    border-bottom: 0;
+    top: 0;
+}
+.ant-menu.ant-menu-blue-dark .ant-menu-item,
+.ant-menu.ant-menu-blue-dark .ant-menu-item > a {
+    color: #999;
+}
+.ant-menu.ant-menu-blue-dark.ant-menu-inline,
+.ant-menu.ant-menu-blue-dark.ant-menu-vertical {
+    border-right: 0;
+}
+.ant-menu.ant-menu-blue-dark.ant-menu-inline .ant-menu-item,
+.ant-menu.ant-menu-blue-dark.ant-menu-vertical .ant-menu-item {
+    border-right: 0;
+    margin-left: 0;
+    left: 0;
+}
+.ant-menu.ant-menu-blue-dark .ant-menu-item:hover,
+.ant-menu.ant-menu-blue-dark .ant-menu-item-active,
+.ant-menu.ant-menu-blue-dark .ant-menu-submenu-active,
+.ant-menu.ant-menu-blue-dark .ant-menu-submenu-selected,
+.ant-menu.ant-menu-blue-dark .ant-menu-submenu:hover,
+.ant-menu.ant-menu-blue-dark .ant-menu-submenu-title:hover {
+    background-color: transparent;
+    color: #fff;
+    > a {
+        color: #fff;
+        transform: translateZ(0);
+    }
+}
+.ant-menu.ant-menu-blue-dark .ant-menu-item-selected {
+    border-right: 0;
+    color: #fff;
+    > a,
+    > a:hover {
+        color: #fff;
+    }
+}
+.ant-menu.ant-menu-blue-dark.ant-menu-inline .ant-menu-item-selected {
+    background-color: $dark-primary-color;
+}

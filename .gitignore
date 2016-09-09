@@ -1,0 +1,6 @@
+node_modules
+build
+WebRoot*
+*.rar
+*.msi
+*.log

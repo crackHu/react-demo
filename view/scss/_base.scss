@@ -1,0 +1,116 @@
+body,html{
+    height: auto;
+    min-width: 1300px;
+}
+.clear-table{
+    display: table;
+    display: none;
+}
+
+.ant-tabs-nav-scroll{
+    background-color: $color-background;
+}
+
+.ant-tabs-content{
+    width: 98%;
+    margin: 0 auto;
+}
+
+.button-bar{
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.button-bar button{
+    margin-left: 10px;
+}
+
+.button-bar button:first-child{
+    margin: 0;
+}
+
+.c-form-a{
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid $color-border;
+    border-radius: 5px;
+}
+
+.dis{
+    display: none;
+}
+
+.mr15{
+    margin-right: 15px;
+}
+
+.ml15{
+    margin-left: 15px;
+}
+
+
+.c-ant-menu{
+    line-height: 68px;
+    @include flex-layout(1);
+    z-index: 1;
+}
+
+.logo{
+    width: 140px;
+    height: 46px;
+    background-image:url($img-logo);
+    background-size: 140px 46px;
+    margin: 0 70px 0 20px;
+}
+
+.account{
+    @extend .flex;
+}
+
+.label{
+    width: 116px;
+}
+
+.info{
+    @include flex-layout(1);
+}
+
+.module .ant-card-body{
+    padding: 10px 24px;
+}
+
+.module .ant-card:first-child{
+    margin: 0;
+}
+
+.module .ant-card{
+    margin-top: 10px;
+}
+
+.module .field{
+    height: 50px;
+    @extend .flex;
+    @include v-layout(center);
+}
+
+.operation{
+    @include flex-layout(1);
+    color: $color-blue;
+}
+
+.module .ant-calendar-picker{
+    width: 100%;
+}
+
+form .ant-search-input .ant-search-btn{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.module .ant-input-number-lg{
+    width: 100%;
+}
+
+.module form .ant-input-number{
+    width: 100%;
+}
